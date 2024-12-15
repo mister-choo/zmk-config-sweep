@@ -36,9 +36,9 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W            &lt 1 E          &kp R         &kp T                &kp Y        &kp U         &lt 2 I           &kp O               &kp P
-&hrm LSHIFT A  &hrm LEFT_WIN S  &hrm LEFT_ALT D  &hrm LCTRL F  &kp G                &kp H        &hrm RCTRL J  &hrm RIGHT_ALT K  &hrm RIGHT_SHIFT L  &hrm RIGHT_WIN SEMICOLON
-&kp Z          &kp X            &kp C            &kp V         &kp B                &kp N        &kp M         &kp COMMA         &kp DOT             &kp FSLH
+&kp Q          &kp W            &lt 1 E          &kp R         &kp T                &kp Y        &kp U         &lt 2 I           &kp O         &kp P
+&hrm LSHIFT A  &hrm LEFT_WIN S  &hrm LEFT_ALT D  &hrm LCTRL F  &kp G                &kp H        &hrm RCTRL J  &hrm RIGHT_ALT K  &hrm RMETA L  &hrm RSHIFT SEMICOLON
+&kp Z          &kp X            &kp C            &kp V         &kp B                &kp N        &kp M         &kp COMMA         &kp DOT       &kp FSLH
                                                  &lt 1 ESCAPE  &hrm LSHIFT SPACE    &lt 3 ENTER  &lt 2 BSPC
             >;
         };
@@ -54,7 +54,7 @@
 
         blue_layer {
             bindings = <
-&trans             &kp LESS_THAN         &kp EQUAL  &kp RBRC               &trans      &trans       &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RBKT         &trans
+&trans             &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &trans      &trans       &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RBKT         &trans
 &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS    &trans       &kp LEFT_BRACE    &kp COLON       &kp RIGHT_BRACE  &kp SQT
 &trans             &trans                &trans     &trans                 &trans      &trans       &trans            &trans          &trans           &trans
                                                     &trans                 &trans      &kp LC(TAB)  &kp LS(LC(TAB))
@@ -63,7 +63,7 @@
 
         special {
             bindings = <
-&tog 5        &trans      &trans         &trans        &trans           &trans         &trans        &to 4         &trans    &trans
+&trans        &trans      &trans         &trans        &trans           &trans         &trans        &to 4         &trans    &trans
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp FSLH  &kp BSLH
 &trans        &trans      &kp LS(TILDE)  &trans        &trans           &trans         &trans        &kp GRAVE     &trans    &trans
                                          &trans        &trans           &trans         &trans
