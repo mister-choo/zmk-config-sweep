@@ -63,7 +63,7 @@
 
         special {
             bindings = <
-&trans        &trans      &trans         &trans        &trans           &trans         &trans        &to 4         &to 5     &trans
+&trans        &trans      &trans         &trans        &trans           &trans         &trans        &lt 4 I       &lt 5 O   &trans
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp FSLH  &kp BSLH
 &trans        &trans      &kp LS(TILDE)  &trans        &trans           &trans         &trans        &kp GRAVE     &trans    &trans
                                          &trans        &trans           &trans         &trans
