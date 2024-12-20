@@ -8,7 +8,7 @@
 
 &lt {
     tapping-term-ms = <120>;
-    quick-tap-ms = <200>;
+    quick-tap-ms = <120>;
     flavor = "tap-preferred";
     require-prior-idle-ms = <125>;
 };
@@ -20,7 +20,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <120>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <120>;
             bindings = <&kp>, <&kp>;
 
             require-prior-idle-ms = <125>;
