@@ -8,9 +8,9 @@
 
 &lt {
     tapping-term-ms = <120>;
-    quick-tap-ms = <150>;
-    flavor = "tap-preferred";
-    require-prior-idle-ms = <125>;
+    quick-tap-ms = <120>;
+    flavor = "balanced";
+    require-prior-idle-ms = <80>;
 };
 
 / {
@@ -18,12 +18,12 @@
         hrm: hrm {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <120>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <120>;
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <80>;
         };
     };
 
