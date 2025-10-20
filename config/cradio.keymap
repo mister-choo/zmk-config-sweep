@@ -35,7 +35,7 @@
             bindings = <
 &kp Q          &kp W            &kp E            &kp R         &kp T                &kp Y            &kp U         &kp I             &kp O         &kp P
 &hrm LSHIFT A  &hrm LEFT_WIN S  &hrm LEFT_ALT D  &hrm LCTRL F  &kp G                &kp H            &hrm RCTRL J  &hrm RIGHT_ALT K  &hrm RMETA L  &hrm RSHIFT SEMICOLON
-&kp Z          &kp X            &kp C            &kp V         &kp B                &kp N            &kp M         &kp COMMA         &kp DOT       &kp FSLH
+&kp Z          &kp X            &kp C            &kp V         &kp B                &kp N            &kp M         &kp COMMA         &kp DOT       &lt 4 SLASH
                                                  &lt 1 ESCAPE  &hrm LSHIFT SPACE    &lt 3 BACKSPACE  &lt 2 ENTER
             >;
         };
@@ -60,7 +60,7 @@
 
         special {
             bindings = <
-&trans        &trans      &trans         &trans        &trans           &trans         &trans        &lt 4 I       &lt 5 O   &trans
+&trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &lt 5 O   &trans
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp FSLH  &kp BSLH
 &trans        &trans      &kp LS(TILDE)  &trans        &trans           &trans         &trans        &kp GRAVE     &trans    &trans
                                          &trans        &trans           &trans         &trans
