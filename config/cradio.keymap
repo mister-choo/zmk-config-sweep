@@ -42,46 +42,46 @@
 
         red_layer {
             bindings = <
-&kp PRINTSCREEN  &kp TAB       &kp UP_ARROW  &kp LS(TAB)    &trans       &trans    &kp N7        &kp N8        &kp N9        &kp LA(F4)
-&kp LA(LSHIFT)   &kp LEFT      &kp DOWN      &kp RIGHT      &trans       &trans    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0
-&caps_word       &kp LC(LEFT)  &trans        &kp LC(RIGHT)  &trans       &trans    &kp N1        &kp NUMBER_2  &kp NUMBER_3  &trans
+&kp PRINTSCREEN  &kp TAB       &kp UP_ARROW  &kp LS(TAB)    &none        &none     &kp N7        &kp N8        &kp N9        &kp LA(F4)
+&kp LA(LSHIFT)   &kp LEFT      &kp DOWN      &kp RIGHT      &none        &none     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_0
+&caps_word       &kp LC(LEFT)  &none         &kp LC(RIGHT)  &none        &none     &kp N1        &kp NUMBER_2  &kp NUMBER_3  &none
                                              &kp LA(TAB)    &kp SPACE    &kt HOME  &kp END
             >;
         };
 
         blue_layer {
             bindings = <
-&trans             &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &trans      &trans       &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RBKT         &trans
-&kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS    &trans       &kp LEFT_BRACE    &kp COLON       &kp RIGHT_BRACE  &kp SQT
-&trans             &trans                &trans     &trans                 &trans      &trans       &trans            &trans          &trans           &trans
-                                                    &trans                 &trans      &kp LC(TAB)  &kp LS(LC(TAB))
+&none              &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &none       &none        &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RBKT         &none
+&kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp PLUS    &none        &kp LEFT_BRACE    &kp COLON       &kp RIGHT_BRACE  &kp SQT
+&none              &none                 &none      &none                  &none       &none        &none             &none           &none            &none
+                                                    &none                  &none       &kp LC(TAB)  &kp LS(LC(TAB))
             >;
         };
 
         special {
             bindings = <
-&trans        &trans      &trans         &trans        &trans           &trans         &trans        &trans        &lt 5 O   &trans
+&none         &none       &none          &none         &none            &none          &none         &none         &lt 5 O   &none
 &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp FSLH  &kp BSLH
-&trans        &trans      &kp LS(TILDE)  &trans        &trans           &trans         &trans        &kp GRAVE     &trans    &trans
-                                         &trans        &trans           &trans         &trans
+&none         &none       &kp LS(TILDE)  &none         &none            &none          &none         &kp GRAVE     &none     &none
+                                         &none         &none            &none          &none
             >;
         };
 
         fkeys_layer {
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4     &trans  &trans  &trans  &trans  &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8     &trans  &trans  &trans  &trans  &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12    &trans  &trans  &trans  &trans  &trans
-                         &trans   &trans     &trans  &trans
+&none  &kp F1  &kp F2   &kp F3   &kp F4     &none  &none  &none  &none  &none
+&none  &kp F5  &kp F6   &kp F7   &kp F8     &none  &none  &none  &none  &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12    &none  &none  &none  &none  &none
+                        &none    &none      &none  &none
             >;
         };
 
         tri_layer {
             bindings = <
-&sys_reset   &trans  &trans  &trans      &bt BT_SEL 0    &trans  &trans  &trans  &trans  &sys_reset
-&bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &bootloader
-&trans       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &trans
-                             &trans      &trans          &trans  &trans
+&sys_reset   &none  &none  &none       &bt BT_SEL 0    &none  &none  &none  &none  &sys_reset
+&bootloader  &none  &none  &none       &bt BT_SEL 1    &none  &none  &none  &none  &bootloader
+&none        &none  &none  &bt BT_CLR  &bt BT_SEL 2    &none  &none  &none  &none  &none
+                           &none       &none           &none  &none
             >;
         };
     };
